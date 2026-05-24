@@ -1,4 +1,4 @@
-# NeuralNets: Foundations from Scratch 🧠
+# NeuralNets: Foundations from Scratch 
 
 Welcome to **NeuralNets**! The core objective of this repository is to build and understand the fundamental concepts behind neural networks, backpropagation, and deep learning from the ground up.
 
@@ -66,7 +66,7 @@ Make sure you have the following libraries installed in your environment:
 
 ## 🔍 Core Concept: Scalar autograd under the hood
 
-The heart of backpropagation in our custom autograd engine relies on the `Value` class, which handles local math operations. When a forward operation is performed, it stores a pointer to a `_backward` function:
+The heart of backpropagation in custom autograd engine relies on the `Value` class, which handles local math operations. When a forward operation is performed, it stores a pointer to a `_backward` function:
 
 ```python
 # Addition implementation in Value class
